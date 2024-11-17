@@ -14,15 +14,15 @@ This project aims at implementing a generative adversarial network (GAN) trained
    * Discriminator: Takes a 28x28 image (real or generated) as input. Outputs a probability score indicating whether       the image is real or fake using convolutional layers to downsample and classify.
      
 3> Training Loop
-   a. Train the Discriminator
+1. Train the Discriminator
       * Use a batch of real images from the dataset.
       * Generate fake images using the current Generator.
       * Calculate the loss and update the Discriminator weights.
-   b. Train the Generator
+2. Train the Generator
       * Generate fake images using random noise.
       * Aim to fool the Discriminator, maximizing the probability that generated images are classified as real.
       * Calculate the loss and update the Generator weights.
-   Repeat the above steps for a set number of epochs, saving model checkpoints and generated images periodically.
+Repeat the above steps for a set number of epochs, saving model checkpoints and generated images periodically.
    
 4> Evaluation and Results
    * Display sample generated images to visualize the quality of the model.
