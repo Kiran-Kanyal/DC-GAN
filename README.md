@@ -42,10 +42,21 @@ Repeat the above steps for a set number of epochs, saving model checkpoints and 
 
 # Terminologies
 
-* Number of Epochs: The number of times the entire training dataset is passed through the model.
-* Batch Size: The number of samples processed before updating the model's parameters.
-* Noise: A random input vector used by the generator in GANs to produce synthetic data.
-* Optimizer: An algorithm that adjusts model weights to minimize the loss function.
-* lr (Learning Rate): A hyperparameter that controls the step size for updating model weights.
-* beta_1: A parameter in the Adam optimizer that controls the decay rate of the first moment (gradient's mean).
+* Number of Epochs
+  The number of times the entire training dataset is passed through the model.
+  
+* Batch Size
+  The number of samples processed before updating the model's parameters.
+  
+* Noise
+  A random input vector used by the generator in GANs to produce synthetic data.
+  
+* Optimizer
+  An algorithm that adjusts model weights to minimize the loss function.
+  
+* lr (Learning Rate)
+  A hyperparameter that controls the step size for updating model weights.
+  
+* beta_1
+  A parameter in the Adam optimizer that controls the decay rate of the first moment (gradient's mean).
 
